@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <img src="images/logo.png" alt="" class="logo">
+        <div class="btn-div">
+        </div>
+    </div>
+    <div class="middle" id="middle">
+        <div class="card">
+            <div style="color: white;">
+            <h1>Instructions to Play the Quiz</h1>
+                Welcome to the Quiz! Test your knowledge by answering the following questions within the given time limit of 10 seconds each.
+                <h1>How to Play:</h1>
+                Read the question carefully. You'll have 10 seconds to select the correct answer.
+                Choose the correct answer from the options provided below the question.
+                Click the "Next" button to move to the next question.
+                Keep an eye on the timer displayed at the top right corner of the question. The timer will count down from 10 seconds.
+                If you don't answer within the time limit, the quiz will automatically move to the next question.
+                After answering all the questions, click the "Submit" button to finish the quiz and see your score.
+                <h1>Tips:</h1>
+                Trust your instincts, and don't overthink the questions.
+                Stay focused and answer as quickly as possible to make the most of the time limit.
+                Remember, each question has only one correct answer.
+                Good luck, and have fun testing your knowledge!
+                Feel free to adapt and modify these instructions to match the tone and style of your website. Make sure to place these instructions prominently on your quiz page so that users can easily find them before starting the quiz.
+            </div>
+            <div class="start-div"><button class="start" id="start">Start Quiz</button></div>
+        </div>
+    </div>
+    <div class="middle" id="question-card">
+        <div class="card">
+        <h2 class="qsn">Question :</h2>
+        <p class="timer1">Timer : </p>
+        <div class="timer" id="timer">10</div>
+        <div class="question" id="question"></div>
+        <div class="options" id="options"></div>
+        <button id="nextButton" class="nxt-btn">Next</button>
+        <button id="submitButton" class="sub-btn">Submit</button>
+        <button id="retry" class="nxt-btn">Retry</button>
+        <button id="back" class="sub-btn">Home</button>
+        </div>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>

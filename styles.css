@@ -1,0 +1,97 @@
+body {
+    background-image: url(images/space-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    border-radius: 5vh;
+    margin-top: 2vh;
+    padding: 0;
+    width: 193vh;
+    margin-left: 2vh;
+    background: transparent;
+}
+.logo{
+    height: 13vh;
+    margin-left: 40vw;
+}
+.card {
+    width: 100vh;
+    height: 65vh;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1),
+                0 2px 4px rgba(0, 0, 0, 0.08);
+    background: transparent;
+  }
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0vh;
+}
+.start-div{
+    margin-top: 7vh;
+    display: flex;
+    justify-content: center;
+}
+.start{
+    height: 7vh;
+    width: 13vw;
+    background:transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    color: black;
+    font-size: 20px;
+}
+.timer,.question,.options,.retryButton,.backButton,.timer1{
+    color: white;
+    font-size: 20px;
+}
+.timer1{
+    display: inline;
+    padding-left: 80vh;
+}
+.timer{
+    display: inline;
+    text-align: end;
+}
+.question{
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+}
+.options{
+    margin-left: 2vh;
+    cursor: pointer;
+}
+.retry,.back{
+    margin-top: 3vh;
+    height: 5vh;
+    width: 10vw;
+    background:transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: orange;
+    color: orange;
+    font-size: 20px;
+}
+.qsn{
+    color: white;
+    font-size: 40px;
+}
+.nxt-btn,.sub-btn{
+    height: 5vh;
+    width: 10vw;
+    background:transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: orange;
+    color: orange;
+    font-size: 20px;
+    margin-top: 3vh;
+    margin-right: 2vh;
+}
